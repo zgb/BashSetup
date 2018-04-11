@@ -1,0 +1,42 @@
+#navigation
+alias ll="ls -l -a"
+
+
+#shortcuts
+alias goschool="cd ~/Documents/School"
+alias gocv="cd ~/Documents/School/6476"
+
+
+#Protection from myself
+alias rm="rm -i"
+alias rmd="rm -rf -i"
+alias mv="mv -i"
+
+
+# PROGRAM COMMANDS
+#Git commands
+alias gitco="git checkout"
+alias gitst='git status'
+alias gitcom='git commit'
+alias gitcommitcount='git rev-list HEAD --count'
+
+alias vigitig='vi ./.gitignore'
+
+
+
+#PROJECT COMMANDS
+alias goluxsrc="cd /Users/ZachAttack/Documents/LuxapelRoot/Luxapel/LuxapelSource"
+
+
+
+#Searching
+alias grep='grep -i'
+alias grepdp='grep -i -r'
+
+
+
+
+#Processes
+alias kill='taskkill /F /PID'
+
+
